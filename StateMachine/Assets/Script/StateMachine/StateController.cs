@@ -26,5 +26,8 @@
 			currentState = nextState;
 		}
 
+		public void Attack(StateController other) {
+			Debug.Log("Attacca!");
+		}
 		
 	}
